@@ -15,4 +15,5 @@ $(document).ready(function(){
   $( "#opener" ).click(function() {
     $( "#dialog" ).dialog( "open" );
   });
-});
+
+  $('[rel=tooltip]').tooltip();});
