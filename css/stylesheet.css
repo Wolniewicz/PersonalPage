@@ -1,3 +1,25 @@
-.metro .navigation-bar .navigation-bar-content{
-	padding-left: 300px;
+
+html {
+	height:100%;
 }
+
+.content {
+	border-left: 1px;
+	border-right: 1px;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-color: #ddd;
+	height: 100%;
+}
+.canvas{
+	height:100%;
+}
+
+.navigation ul{
+	list-style-type: none;
+}
+
+.navigation li {
+	float:left;
+}
+
