@@ -3,6 +3,10 @@ html {
 	height:100%;
 }
 
+img {
+	margin:5%;
+}
+
 .content {
 	border-left: 1px;
 	border-right: 1px;
@@ -23,3 +27,21 @@ html {
 	float:left;
 }
 
+.nav-text {
+	cursor: pointer;
+	color: #999;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.title h1 {
+	text-align: center;
+}
+
+
+#selected_page {
+	color: #111;
+	border-bottom-color: #ddd;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
